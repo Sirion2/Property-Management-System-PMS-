@@ -13,7 +13,7 @@
 CREATE SCHEMA pmsdb;
 
 -- Creates System user of pms --
-CREATE USER pms_system WITH ENCRYPTED PASSWORD 't{,yVAzap&{(nHV';
+CREATE USER pms_system WITH ENCRYPTED PASSWORD 'password_here';
 
 -- Grants schema permissions to pms user --
 GRANT USAGE, CREATE ON SCHEMA pmsdb TO pms_system;
